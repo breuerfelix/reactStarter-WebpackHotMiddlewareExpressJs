@@ -1,0 +1,45 @@
+{
+    "name": "reactstarter",
+    "version": "0.0.1",
+    "description": "starting a new react project with webpack 4 and ES6 with Express as Server made by scriptworld.net",
+    "main": "server/index.js",
+    "scripts": {
+        "start": "nodemon --watch server --exec babel-node -- server/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "scriptworld.net",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ScriptWorld-git/AutoCerts/AutoCerts.git"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "classnames": "^2.2.5",
+        "express": "^4.16.3",
+        "history": "^4.7.2",
+        "path": "^0.12.7",
+        "react": "^16.3.2",
+        "react-dom": "^16.3.2",
+        "react-router": "^4.2.0",
+        "react-router-dom": "^4.2.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^7.1.4",
+        "babel-plugin-react-html-attrs": "^2.1.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-preset-react": "^6.24.1",
+        "babel-preset-stage-0": "^6.24.1",
+        "nodemon": "^1.17.4",
+        "open": "0.0.5",
+        "webpack": "^4.8.3",
+        "webpack-cli": "^2.1.3",
+        "webpack-dev-middleware": "^3.1.3",
+        "webpack-hot-middleware": "^2.22.1"
+    }
+}
