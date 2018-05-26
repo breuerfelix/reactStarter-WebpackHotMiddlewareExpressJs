@@ -1,5 +1,8 @@
 # reactStarter-HotMiddlewareExpressJs
 
+**Checkout the full Documentation on my website!**  
+[scriptworld.net/reactStarter](https://scriptworld.net/tutorial/React-Hot-Loader-Express.html)
+
 To start a tiny [react-app](https://reactjs.org) (with the new [ES6](http://es6-features.org/) features) I wanted to have a basic [hot-reload](https://github.com/gaearon/react-hot-loader) development server with an [expressJS](http://expressjs.com/) backend server, to handle API calls in the future.  
 This should be bundled with [webpack](https://webpack.js.org) because it's the most popular and kinda easy to handle react in my opinion.
 
